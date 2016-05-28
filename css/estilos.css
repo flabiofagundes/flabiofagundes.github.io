@@ -144,7 +144,7 @@ PARCEIROS
 }
 
 #parceiros img {
-	width: 100%;
+	width: 50%;
 	padding: 10px;
 }
 
@@ -184,6 +184,11 @@ CONTATO
 #contato > p {
 	padding-bottom: 30px;
 	text-align: center;
+}
+
+#contato a {
+		text-decoration: none;
+		color: #4d4d4d;
 }
 
 /*
@@ -337,9 +342,5 @@ MEDIA QUERIES
 		flex-basis: 150px;
 		padding: 0 10px;
 	}
-
-	#contato a {
-		text-decoration: none;
-		color: #4d4d4d;
-	}
+	
 }
