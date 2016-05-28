@@ -1,0 +1,345 @@
+/*
+GERAL
+*/
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #4d4d4d
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.botao {
+	color: #4d4d4d;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #f1f1f1;
+	font-size: .9em;
+	border-radius: 3px;
+}
+
+/*
+NAVEGAÇÃO
+*/
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #4d4d4d;	
+}
+
+nav > a {
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: 700;
+	font-size: 28px;
+	font-family: Pacifico,  serif;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+/*
+CABEÇALHO
+*/
+
+header {
+	background-image: url('../img/business-meeting.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+	color: #f1f1f1;
+	text-shadow: 2px 2px 2px #000;
+}
+
+header p {	
+	margin-bottom: 2em;
+	font-weight: bold;
+}
+
+
+
+/*
+SOBRE
+*/
+
+#sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px 20px;
+	background-color: #8f2faf;
+	color: #f1f1f1;
+}
+
+#sobre p {
+	margin-bottom: 2.5em;
+	max-width: 1000px;
+}
+
+/*
+SERVIÇOS
+*/
+
+#servicos {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+#servicos div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*
+PARCEIROS 
+*/
+
+#parceiros {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+}
+
+#parceiros p {
+	padding: 0px 20px;
+	text-align: center;
+}
+
+#parceiros img {
+	width: 100%;
+	padding: 10px;
+}
+
+/*
+CLIENTES
+*/
+
+#clientes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+
+#clientes p {
+	padding: 0px 20px;
+	text-align: center;
+}
+
+#clientes img {
+	width: 100%;
+	padding: 10px;
+}
+
+/*
+CONTATO
+*/
+
+#contato {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px;
+}
+
+#contato > p {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #4d4d4d;
+	color: #f1f1f1;
+}
+
+/*
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px){
+	/*
+	NAVEGAÇÃO
+	*/
+
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav ul {
+		flex-direction: row;
+		width: 70%;
+	}
+
+	/*
+	CABEÇALHO
+	*/
+
+	header {
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+	}
+
+	/*
+	SOBRE
+	*/
+
+	#sobre {
+		height: 250px;
+		height: 30vh;
+		justify-content: center;
+		min-height: 250px;
+	}
+
+	/*
+	SERVIÇOS
+	*/
+
+	#servicos {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#servicos h2 {
+		text-align: center;
+		width: 100%;
+	}
+
+	#servicos div {
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	/*
+	PARCEIROS
+	*/
+
+	#parceiros {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;			
+	}
+
+	#parceiros h2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	#parceiros p {
+		width: 100%;
+		text-align: center;
+	}
+
+	#parceiros img {
+		width: 15%;
+	}
+
+	/*
+	CLIENTES
+	*/
+
+	#clientes {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;			
+	}
+
+	#clientes h2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	#clientes p {
+		width: 100%;
+		text-align: center;
+	}
+
+	#clientes img {
+		width: 80%;
+	}
+
+
+	/*
+	CONTATO
+	*/
+
+	#contato {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	#contato h2 {
+		text-align: center;
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	#contato p {
+		text-align: center;
+		width: 100%;
+	}
+
+	#contato div {
+		flex-grow: 1;
+		flex-basis: 150px;
+		padding: 0 10px;
+	}
+
+	#contato a {
+		text-decoration: none;
+		color: #4d4d4d;
+	}
+}
