@@ -84,7 +84,7 @@ header {
 	padding: 20px;
 	color: #f1f1f1;
 	text-shadow: 2px 2px 2px #000;
-	margin-top: 74px;
+	
 }
 
 header p {	
@@ -244,6 +244,7 @@ MEDIA QUERIES
 		height: 600px;
 		height: 60vh;
 		justify-content: center;
+		margin-top: 74px;			
 	}
 
 	/*
