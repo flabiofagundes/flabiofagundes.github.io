@@ -2,14 +2,22 @@
 GERAL
 */
 
+@font-face {
+      font-family: "Iskoola Pota";
+      src: url("iskpota.ttf") format("truetype");
+}
+
+.iskoola-font {
+    font-family: "Iskoola Pota";
+}
+
 body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	color: #4d4d4d	   
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;	  
+    color: #4d4d4d;
 }
 
 html {
-	padding-top: 205px;
-    overflow-x: hidden;
+	padding-top: 205px;    
 }
 
 h1, h2, h3 {
@@ -97,7 +105,8 @@ header {
     background-image: url(../img/business-meeting.jpg);
     background-position: center center;    
     background-size: cover;
-    */   
+    */ 
+  
     
     height: 600px;
     /* height: 60vh; */
@@ -112,7 +121,7 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 header p {
@@ -163,7 +172,8 @@ SERVIÇOS
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F0EFF0   
+    background-color: #F0EFF0;
+    width: 100%;    
 }
 
 #servicos h2{
