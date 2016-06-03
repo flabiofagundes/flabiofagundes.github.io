@@ -3,12 +3,8 @@ GERAL
 */
 
 @font-face {
-      font-family: "Iskoola Pota";
+      font-family: "Iskoola-font";
       src: url("iskpota.ttf") format("truetype");
-}
-
-.iskoola-font {
-    font-family: "Iskoola Pota";
 }
 
 body {
@@ -48,7 +44,7 @@ nav {
     
     position: fixed;
     top: 0;
-    left: 0;
+    
     z-index: 1000;
     width: 100%; 
 }
@@ -58,7 +54,7 @@ nav > a {
 	color: #f1f1f1;
 	font-weight: 700;
 	font-size: 28px;
-	font-family: Pacifico,  serif;
+	font-family: "Iskoola Pota", "Iskoola-font", Pacifico,  serif;
 }
 
 nav ul {
@@ -84,7 +80,7 @@ nav ul li a {
 }
 
 nav ul a:hover {
-	color: #2f3032;
+	color: #4682B4;
 }
 
 /*
@@ -95,22 +91,22 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    justify-content: center;
 	text-align: center;
 	padding: 20px;
 	color: #f1f1f1;
 	text-shadow: 2px 2px 2px #000;
     background-color: black;
+    
     /*
     background-color: black;
     background-image: url(../img/business-meeting.jpg);
     background-position: center center;    
     background-size: cover;
-    */ 
-  
+    */   
     
     height: 600px;
-    /* height: 60vh; */
-    justify-content: center;
+    /* height: 60vh; */    
     margin-top: 74px;
     
     position: fixed;
@@ -122,6 +118,12 @@ header {
 
 header h1 {
     font-size: 70px;
+    font-family: "Iskoola Pota", "Iskoola-font", "Roboto Slab";
+}
+
+header h2 {
+    font-size: 30px;
+    font-family: "Iskoola Pota", "Iskoola-font", "Roboto Slab";
 }
 
 header p {
@@ -179,7 +181,7 @@ SERVIÇOS
 #servicos h2{
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 #servicos #cont-servs {
@@ -356,11 +358,3 @@ footer p {
     width: 100%;
     margin: 0;
 }
-
-
-
-
-
-
-
-
