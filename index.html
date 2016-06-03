@@ -8,33 +8,35 @@
     <link rel="shortcut icon" href="img/icones/favicon.ico" >
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/estilos.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
 	<nav>		
 		<a>Damatta Representações</a>
 		<ul>
-			<li><a href="#sobre">SOBRE</a></li>
-			<li><a href="#servicos">SERVIÇOS</a></li>
-			<li><a href="#parceiros">PARCEIROS</a></li>
-			<li><a href="#clientes">CLIENTES</a></li>
-			<li><a href="#contato">CONTATO</a></li>
+			<li><a class="scroll" href="#sobre">SOBRE</a></li>
+			<li><a class="scroll" href="#servicos">SERVIÇOS</a></li>
+			<li><a class="scroll" href="#parceiros">PARCEIROS</a></li>
+			<li><a class="scroll" href="#clientes">CLIENTES</a></li>
+			<li><a class="scroll" href="#contato">CONTATO</a></li>
 		</ul>		
 	</nav>
 
 	<header>
         <h1 class="iskoola-font">Damatta</h1>
 		<h2>Representações</h2>			
-		<p>Não se preocupe com as vendas, nós nos preocupamos por você!</p>	
+		<p>Não se preocupe com as vendas, nós nos preocupamos por você!</p>	        
         <img src="img/business-meeting.jpg">
+        <a class="scroll" href="#sobre" id="botao">VER MAIS</a>
     </header>   
 
 	<section id="sobre">
 		<h2>SOBRE</h2>
 		<p>Fundada em 2008, estamos sempre buscando os meios de vendas mais modernos, eficientes e eficazes, atendendo as necessidades atuais do mercado e das metas traçadas. Almejamos a satisfação dos nossos parceiros com um trabalho responsável e de qualidade. Para nossos clientes temos um atendimento diferencial e uma atenção prestativa.</p>		
 		<div>
-			<a href="#contato" class="botao">ENTRE EM CONTATO</a>
+			<a class="scroll" href="#contato" id="botao">ENTRE EM CONTATO</a>
 		</div>
 	</section>
 
@@ -113,6 +115,9 @@
         <p>&copy; Damatta Representações</p>
         <p>2008 - 2016</p>
 	</footer>
+    
+    <script src="js/anchor.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
 </body>
 
 </html>
