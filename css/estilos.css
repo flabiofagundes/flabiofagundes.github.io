@@ -1,367 +1,112 @@
-/*
-GERAL
-*/
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="keywords" content="representacoes, matta, joao, pessoa, paraiba, pb, vendas">
+    <meta name="description" content="Damatta Representações">    
+	<title>Damatta Representações</title>
+    <link rel="shortcut icon" href="img/icones/favicon.ico" >
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
 
-@font-face {
-      font-family: "Iskoola-font";
-      src: url("iskpota.ttf") format("truetype");
-}
+<body>
+	<nav>		
+		<a>Damatta Representações</a>
+		<ul>
+			<li><a class="scroll" href="#sobre">SOBRE</a></li>
+			<li><a class="scroll" href="#instalacoes">INSTALAÇÕES</a></li>
+			<li><a class="scroll" href="#parceiros">PARCEIROS</a></li>
+			<li><a class="scroll" href="#clientes">CLIENTES</a></li>
+			<li><a class="scroll" href="#contato">CONTATO</a></li>
+		</ul>		
+	</nav>
 
-body {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;	  
-    color: #4d4d4d;
-}
+	<header>
+        <h1 class="iskoola-font">Damatta</h1>
+		<h2>Representações</h2>			
+		<p>Não se preocupe com as vendas, nós nos preocupamos por você!</p>	        
+        <img src="img/business-meeting.jpg">
+        <a class="scroll" href="#sobre" id="botao">VER MAIS</a>
+    </header>   
 
-html {
-	padding-top: 205px;    
-}
+	<section id="sobre">
+		<h2>SOBRE</h2>
+		<p>Fundada em 2008, estamos sempre buscando os meios de vendas mais modernos, eficientes e eficazes, atendendo as necessidades atuais do mercado e das metas traçadas. Nos preocupamos em vender o seu produto, mantendo e ampliando os seus clientes; pós-venda e melhorias de espaço. Almejamos a satisfação dos nossos parceiros com um trabalho responsável e de qualidade. Para nossos clientes temos um atendimento diferencial e uma atenção prestativa.</p>		
+		<div>
+			<a class="scroll" href="#contato" id="botao">ENTRE EM CONTATO</a>
+		</div>
+	</section>
 
-h1, h2, h3 {
-	margin: 0;
-	font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-	font-weight: 700;
-}
+	<section id="instalacoes">
+		<h2>INSTALAÇÕES</h2>
+		<p>Nossas modernas instalações para melhor atender os nossos parceiros.</p>		
+		<img src="img/instalacoes/insta3.jpg" alt="Instalação 1">				
+        <img src="img/instalacoes/insta2.png" alt="Instalação 2">
+        <img src="img/instalacoes/insta5.jpg" alt="Instalação 3">
+        <img src="img/instalacoes/insta6.jpg" alt="Instalação 4">
+        <img src="img/instalacoes/insta4.png" alt="Instalação 5">
+        <img src="img/instalacoes/insta.jpg" alt="Instalação 6">
+	</section>
 
-#botao {
-    color: #f1f1f1;
-    text-decoration: none;
-    padding: 10px 30px;
-    background-color: #8f3faf;
-    font-size: .9em;
-    border-radius: 3px;
-    text-shadow: none;
-}
+	<section id="parceiros">
+		<h2>PARCEIROS</h2>
+		<p>Alguns dos nossos parceiros. Junte-se a nós!</p>		
+		<img src="img/parceiros/logo-cativa.png" alt="Logomarca cativa">				
+		<img src="img/parceiros/logo-habana.png" alt="Logomarca habana">		
+		<img src="img/parceiros/logo-disney.png" alt="Logomarca disney">			
+	</section>
 
-/*
-NAVEGAÇÃO
-*/
+	<section id="clientes">
+		<h2>CLIENTES</h2>
+		<p>Alguns dos nossos clientes. Junte-se a nós!</p>	
+		<div>
+			<img src="img/clientes/logo-dluck.png" alt="Logomarca dluck">	
+			<img src="img/clientes/logo-realce.png" alt="Logomarca realce">		
+			<img src="img/clientes/logo-cattan.png" alt="Logomarca cattan">		
+			<img src="img/clientes/logo-esplanada.jpg" alt="Logomarca esplanada">		
+			<img src="img/clientes/logo-hiper.png" alt="Logomarca hiper bompreço">
+			<img src="img/clientes/logo-mascate.png" alt="Logomarca mascate">
+			<img src="img/clientes/logo-thiago.png" alt="Logomarca thiago calçados">
+		</div>
+	</section>
 
-nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	background-color: #4d4d4d;	
-    justify-content: space-around;
+	<section id="contato">
+		<h2>CONTATO</h2>
+		<p>Entre em contato conosco para maximizar as suas vendas.</p>
+		<div id="conteudo">
+			<div>
+				<img src="img/icones/responsavel.png" alt="responsável">
+				<p>Flábio Barbosa da Matta</p>
+				<p>CORE 4205/08</p>
+			</div>
+			<div id="telefone">
+				<img src="img/icones/telefone.png" alt="telefone">
+				<div id="wpp">
+					<p><a href="tel:83987636777">Oi (83) 98763-6777</a></p>
+					<img src="img/icones/whatsapp.png" alt="whatsapp">
+				</div>			
+				<p><a href="tel:83998201657">Tim (83) 99820-1657</a></p>
+			</div>
+			<div>
+				<img src="img/icones/email.png" alt="e-mail">
+				<p><a href="mailto:fagmatta@hotmail.com">fagmatta@hotmail.com</a></p>
+			</div>
+			<div>
+				<img src="img/icones/endereco.png" alt="endereço">			
+				<p>Av. Mato Grosso, 667 - Bairro dos Estados -  João Pessoa / PB - 58030-080</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+        <p>Damatta Representações &copy; 2016</p>        
+	</footer>
     
-    position: fixed;
-    top: 0;
-    
-    z-index: 1000;
-    width: 100%; 
-}
+    <script src="js/anchor.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+</body>
 
-nav > a {
-	text-decoration: none;
-	color: #f1f1f1;
-	font-weight: 700;
-	font-size: 28px;
-	font-family: "Iskoola Pota", "Iskoola-font", Pacifico,  serif;
-}
-
-nav ul {
-	list-style: none;
-	padding: 0;
-	display: flex;
-	flex-direction: row;    
-	width: 70%;  
-    
-}
-
-nav ul li {
-	text-align: center;
-	width: 100%;    
-}
-
-nav ul li a {
-	display: inline-block;
-	padding: 10px 0;
-	width: 100%;
-	text-decoration: none;
-	color: #f1f1f1;		
-}
-
-nav ul a:hover {
-	color: #4682B4;
-}
-
-/*
-CABEÇALHO
-*/
-
-header {	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    justify-content: center;
-	text-align: center;
-	padding: 20px;
-	color: #f1f1f1;
-	text-shadow: 2px 2px 2px #000;
-    background-color: black;
-    
-    /*
-    background-color: black;
-    background-image: url(../img/business-meeting.jpg);
-    background-position: center center;    
-    background-size: cover;
-    */   
-    
-    height: 600px;
-    /* height: 60vh; */    
-    margin-top: 74px;
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    width: 100%;
-}
-
-header h1 {
-    font-size: 70px;
-    font-family: "Iskoola Pota", "Iskoola-font", "Roboto Slab";
-}
-
-header h2 {
-    font-size: 30px;
-    font-family: "Iskoola Pota", "Iskoola-font", "Roboto Slab";
-}
-
-header p {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 50px;
-}
-
-header img {
-	position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 650px;
-    opacity: 0.7;
-    z-index: -2;
-}
-
-/*
-SOBRE
-*/
-
-#sobre {    
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	padding: 0 20px 20px;
-	background-color: #8f2faf;
-	color: #f1f1f1;
-    
-    height: 250px;
-    height: 30vh;
-    justify-content: center;
-    min-height: 250px;		
-    margin-top: 480px;
-}
-
-#sobre p {
-	margin-bottom: 2.5em;
-	max-width: 1000px;
-}
-
-#sobre #botao {
-    background-color: #f1f1f1;
-    color: #4d4d4d;   
-}
-
-/*
-SERVIÇOS
-*/
-
-#servicos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F0EFF0;
-    width: 100%;    
-}
-
-#servicos h2{
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-}
-
-#servicos #cont-servs {
-    display: flex;
-    flex-direction: row;    
-    justify-content: center;
-    max-width: 1000px;     
-    margin: 10px auto;
-}
-
-#servicos #cont-servs div {
-    padding: 0 10px;
-    align-items: center;
-    text-align: center;   
-    flex-grow: 1;
-    flex-basis: 150px;
-}
-
-/*
-PARCEIROS
-*/
-
-#parceiros {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7f7f7;
-	border-bottom: 1px solid #E0E0E0;
-	border-top: 1px solid #E0E0E0;
-}
-
-#parceiros h2 {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;    
-}
-
-#parceiros p {
-    width: 100%;
-    text-align: center;   
-}
-
-#parceiros img {
-    width: 15%;
-    padding: 20px;
-}
-
-/*
-CLIENTES
-*/
-
-#clientes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #F0EFF0
-}
-
-#clientes h2 {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;    
-}
-
-#clientes p {
-    width: 100%;
-    text-align: center;
-}
-
-#clientes div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 1000px;  
-    padding: 20px 0;   
-}
-
-#clientes img {
-    padding: 0 20px;
-    width: 20%;   
-}
-
-/*
-CONTATO
-*/
-
-#contato {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7f7f7;
-	border-top: 1px solid #E0E0E0;
-}
-
-#contato h2 {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;    
-}
-
-#contato a {
-    text-decoration: none;
-    color: #4d4d4d;
-}
-
-#contato #conteudo {
-    display: flex;
-    flex-direction: row;  
-    justify-content: center;
-    max-width: 1000px;
-    padding: 20px 0;  
-    margin-top: 10px;
-}
-
-#contato #conteudo p {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    margin-top: 10px;
-}
-
-#contato #conteudo img {
-   width: 25%;
-}
-
-#contato #conteudo > div {
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items:center;
-    text-align: center;      
-    
-    flex-grow: 1;
-    flex-basis: 150px; 
-}
-
-#contato #telefone #wpp {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:flex-end;
-    text-align: center;      
-}
-
-#contato #telefone #wpp p {    
-    width: auto;
-    padding-right: 10px;
-}
-
-#contato #telefone #wpp img {
-    width: 8%;
-}
-
-/*
-FOOTER
-*/
-
-footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #4d4d4d;
-	color: #f1f1f1;
-}
-
-footer p {
-    width: 100%;
-    margin: 0;
-}
+</html>
