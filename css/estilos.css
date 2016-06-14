@@ -220,7 +220,7 @@ PARCEIROS
 #parceiros h2 {
     width: 100%;
     text-align: center;
-    padding-top: 20px;    
+    padding: 20px 0;     
 }
 
 #parceiros p {
